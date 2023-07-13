@@ -249,3 +249,28 @@ a{
     font-size: 18px;
     color: #636262;
 }
+.container5{
+    padding: 80px 140px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    column-gap: 150px;
+}
+.container5-details h1{
+    font-size: 55px;
+    font-weight: 800;
+    line-height:60px;
+
+}
+.container5-details p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #636262;
+    line-height: 25px;
+    padding-right: 30px;
+    margin-top: 20px;
+}
+.italic{
+    font-style: italic;
+    font-size: 16px !important;
+}
