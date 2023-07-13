@@ -274,3 +274,40 @@ a{
     font-style: italic;
     font-size: 16px !important;
 }
+.sponser{
+    padding: 80px 140px;
+}
+.sponser-des{
+    text-align: center;
+}
+.sponser-des h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.sponser-des p{
+    font-size: 16px;
+    color: #636262;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 20px;
+}
+.sponser-img{
+    display: grid;
+    grid-template-columns:auto auto auto auto auto;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.sponser-img img{
+    filter:invert(40%) sepia(9%) saturate(13%) hue-rotate(2deg) brightness(91%) contrast(91%);
+}
+footer{
+    margin-bottom: 50px;
+}
+.footer{
+    text-align: center;
+    padding: 20px 20px;
+    background-color: #f7bb97;
+}
+.footer p{
+    font-size: 20px;
+}
