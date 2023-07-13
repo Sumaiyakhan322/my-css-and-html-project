@@ -210,3 +210,42 @@ a{
     
     padding-right: 20px;
 }
+/*---------container4--------*/
+.container4{
+    padding: 80px 140px;
+}
+.container-details4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.award{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #f86b2a;
+    ;
+    border-radius: 10px;
+    width: 225px;
+    height: 225px;
+    transition: 1.2s;
+    
+
+}
+.award:hover{
+    transform: translateY(-50px);
+    background-color: #ff8147b5;
+}
+.award img, a{
+    margin: 10px 0px;
+}
+.num{
+    font-size: 44px;
+    font-weight: 700;
+    color: black;
+}
+.text{
+    font-size: 18px;
+    color: #636262;
+}
